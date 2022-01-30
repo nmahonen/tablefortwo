@@ -1,0 +1,27 @@
+/* the content is aligned in the middle of the page */
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* there are black borders at the table, also the table is automatically fixing
+height and width so it will grow bigger or minimize smaller if the content is
+altered */
+table {
+  border: 5px solid black;
+  width: auto;
+  height: auto;
+}
+
+/*table headers are bordered with thin black lines */
+th {
+  border: 1px solid black;
+}
+
+/*table data are bordered with thin golden lines and text at is centered*/
+td {
+  border: 1px solid goldenrod;
+  text-align: center;
+}
